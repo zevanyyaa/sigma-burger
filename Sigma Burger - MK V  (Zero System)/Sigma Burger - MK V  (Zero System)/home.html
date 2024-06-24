@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sigma Burger</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/mystyle.css" />
+  </head>
+  <body>
+    <!-- NavBar Start -->
+    <nav class="navbar">
+      <a href="#promo" class="logo-text">Sigma <span>Burger</span></a>
+
+      <div class="navbar-nav">
+        <a href="#" class="pencet">Home</a>
+        <a href="menu.html " class="tombol">Menu</a>
+        <a href="#contact" class="tombol">Tentang Kami</a>
+      </div>
+
+      <div class="choice">
+        <a href="#cart" id="shop-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#m" id="menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Isi Keranjang -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/bugori.png" alt="Burger Original" />
+          <div class="item-detail">
+            <h3>Original Burger</h3>
+            <div class="harga">Rp 20.000</div>
+          </div>
+          <i data-feather="trash-2" class="hapus"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/lavabug.png" alt="Burger Original" />
+          <div class="item-detail">
+            <h3>Original Burger</h3>
+            <div class="harga">Rp 35.000</div>
+          </div>
+          <i data-feather="trash-2" class="hapus"></i>
+        </div>
+        <div class="payment">
+          <h3>Total Rp 55.000</h3>
+          <a href="#" class="co">Check Out</a>
+        </div>
+      </div>
+    </nav>
+    <!-- NavBar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="promo">
+      <main class="content">
+        <h1>SIGMA BURGER <br /><span>DELIVERY</span></h1>
+        <p>Kenikmatan Disetiap Gigitan</p>
+        <br /><br />
+        <a href="menu.html" class="cta">Pesan Sekarang!</a>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Image Slider Start -->
+    <h3 class="promo">TAWARAN <span>MENARIK</span></h3>
+
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="img/1.png" alt="" />
+        </div>
+        <div class="item">
+          <img src="img/2.png" alt="" />
+        </div>
+        <div class="item">
+          <img src="img/3.png" alt="" />
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+      <ul class="dots">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    <!-- Image Slider End -->
+
+    <!-- Footer Start -->
+    <section class="contact" id="contact">
+      <div class="contact-info">
+        <div class="first-info">
+          <img src="img/bugori.png" width="180px" alt="" />
+        </div>
+        <div class="second-info">
+          <h4>Kritik Dan Saran</h4>
+          <a href="https://wa.me/6285925142979"><p>Kontak Kami</p></a>
+          <p>+62812314576</p>
+          <p>sigmaburger@gmail.com</p>
+        </div>
+        <div class="third-info">
+          <h4>Lokasi Kami</h4>
+          <p>
+            Jalan Raya Karangpawitan, <br />
+            Karangpawitan,Karawang Barat, <br />
+            Jawa Barat 41352, <br />
+            Indonesia
+          </p>
+        </div>
+
+        <div class="five">
+          <h4>Ikuti Kami</h4>
+          <div class="social-icon">
+            <ul>
+              <li>
+                <a href="https://web.facebook.com/">
+                  <i class="bx bxl-facebook"></i>Facebook</a
+                >
+              </li>
+              <li>
+                <a href="https://twitter.com/?lang=id">
+                  <i class="bx bxl-twitter"></i>Twitter</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/">
+                  <i class="bx bxl-instagram"></i>Instagram</a
+                >
+              </li>
+              <li>
+                <a href="https://www.whatsapp.com/?lang=id_ID">
+                  <i class="bx bxl-whatsapp"></i>Whatsapp</a
+                >
+              </li>
+              <li>
+                <a href="https://www.youtube.com/">
+                  <i class="bx bxl-youtube"></i>Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="halal">
+          <img src="img/halall.png" width="180px" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="end-text">
+      <p>
+        Copyright 2024 © Sigma Burger. All Rights Reserved.Design By Sigma
+        Corporation.
+      </p>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Feather Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My java -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

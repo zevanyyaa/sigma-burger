@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sigma Burger</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/mystyle.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NavBar Start -->
+    <nav class="navbar">
+      <a href="#promo" class="logo-text">Sigma <span>Burger</span></a>
+
+      <div class="navbar-nav2">
+        <a href="home.html" class="tombol">Home</a>
+        <a href="menu.html " class="pencet">Menu</a>
+        <a href="#contact" class="tombol">Tentang Kami</a>
+      </div>
+
+      <div class="choice">
+        <a href="#cart" id="shop-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#m" id="menu2"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Isi Keranjang -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/bugori.png" alt="Burger Original" />
+          <div class="item-detail">
+            <h3>Original Burger</h3>
+            <div class="harga">Rp 20.000</div>
+          </div>
+          <i data-feather="trash-2" class="hapus"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/lavabug.png" alt="Burger Original" />
+          <div class="item-detail">
+            <h3>Original Burger</h3>
+            <div class="harga">Rp 35.000</div>
+          </div>
+          <i data-feather="trash-2" class="hapus"></i>
+        </div>
+        <div class="payment">
+          <h3>Total Rp 55.000</h3>
+          <a href="#" class="co">Check Out</a>
+        </div>
+      </div>
+    </nav>
+    <!-- NavBar End -->
+
+    <!-- Menu Start -->
+
+    <section class="sidebar">
+      <main class="bar">
+        <a href="#burger">Burger</a>
+        <a href="#minuman">Minuman</a>
+        <a href="#lain">Lainnya</a>
+      </main>
+    </section>
+
+    <section id="burger" class="burger">
+      <h1>BURGER</h1>
+      <div class="bug-row">
+        <div class="menu-burger">
+          <a href="">
+            <img
+              src="img/bugori.png"
+              alt="Original Burger"
+              class="img-menu"
+              id="img-menu"
+            />
+          </a>
+          <h3 class="title">Original Burger</h3>
+          <p class="harga">Rp 20.000</p>
+          <a href="#k" class="cart">masukan ke keranjang</a>
+        </div>
+        <div class="menu-burger">
+          <a href="">
+            <img
+              src="img/lavabug.png"
+              alt="Original Burger"
+              class="img-menu"
+              id="img-menu"
+            />
+          </a>
+          <h3 class="title">Black Burger</h3>
+          <p class="harga">Rp 35.000</p>
+          <a href="#k" class="cart">masukan ke keranjang</a>
+        </div>
+        <div class="menu-burger">
+          <a href="">
+            <img
+              src="img/chebug.png"
+              alt="Original Burger"
+              class="img-menu"
+              id="img-menu"
+            />
+          </a>
+          <h3 class="title">Cheese Burger</h3>
+          <p class="harga">Rp 20.000</p>
+          <a href="#k" class="cart">masukan ke keranjang</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="minuman" class="minuman">
+      <h1>MINUMAN</h1>
+      <div class="min-row">
+        <div class="menu-minuman">
+          <a href="">
+            <img
+              src="img/coke.png"
+              alt="Original Burger"
+              class="img-menu"
+              id="img-menu"
+            />
+          </a>
+          <h3 class="title">Cola</h3>
+          <p class="harga">Rp 10.000</p>
+          <a href="#k" class="cart">masukan ke keranjang</a>
+        </div>
+        <div class="menu-minuman">
+          <a href="">
+            <img
+              src="img/orjus.png"
+              alt="Original Burger"
+              class="img-menu"
+              id="img-menu"
+            />
+          </a>
+          <h3 class="title">Orange Juice</h3>
+          <p class="harga">Rp 10.000</p>
+          <a href="#k" class="cart">masukan ke keranjang</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="lain" class="lain">
+      <h1>LAINNYA</h1>
+      <div class="lain-row">
+        <div class="menu-lain">
+          <a href="">
+            <img
+              src="img/ff.png"
+              alt="Original Burger"
+              class="img-menu"
+              id="img-menu"
+            />
+          </a>
+          <h3 class="title">Kentang</h3>
+          <p class="harga">Rp 10.000</p>
+          <a href="#k" class="cart">masukan ke keranjang</a>
+        </div>
+        <div class="menu-lain">
+          <a href="">
+            <img
+              src="img/nugget.png"
+              alt="Original Burger"
+              class="img-menu"
+              id="img-menu"
+            />
+          </a>
+          <h3 class="title">Chicken Nugget</h3>
+          <p class="harga">Rp 15.000</p>
+          <a href="#k" class="cart">masukan ke keranjang</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu End -->
+
+    <!-- Modal Box Item Detail Start-->
+    <div class="modal" id="item-detail">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="gambar/burger.jpg" alt="produk 1" />
+          <div class="product-content">
+            <h3 class="title">Original Burger</h3>
+            <p class="desc">
+              Burger dengan daging sapi, berbagai macam saus, dan sayuran
+            </p>
+            <div class="keterangan">
+              <div class="harga">Rp 35.000</div>
+              <a href="#">Tambahkan ke Keranjang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail End-->
+
+    <!-- Footer Start -->
+    <section class="contact" id="contact">
+      <div class="contact-info">
+        <div class="first-info">
+          <img src="img/bugori.png" width="180px" alt="" />
+        </div>
+        <div class="second-info">
+          <h4>Kritik Dan Saran</h4>
+          <a href="https://wa.me/6285925142979"><p>Kontak Kami</p></a>
+          <p>+62812314576</p>
+          <p>sigmaburger@gmail.com</p>
+        </div>
+        <div class="third-info">
+          <h4>Lokasi Kami</h4>
+          <p>
+            Jalan Raya Karangpawitan, <br />
+            Karangpawitan,Karawang Barat, <br />
+            Jawa Barat 41352, <br />
+            Indonesia
+          </p>
+        </div>
+
+        <div class="five">
+          <h4>Ikuti Kami</h4>
+          <div class="social-icon">
+            <ul>
+              <li>
+                <a href="https://web.facebook.com/">
+                  <i class="bx bxl-facebook"></i>Facebook</a
+                >
+              </li>
+              <li>
+                <a href="https://twitter.com/?lang=id">
+                  <i class="bx bxl-twitter"></i>Twitter</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/">
+                  <i class="bx bxl-instagram"></i>Instagram</a
+                >
+              </li>
+              <li>
+                <a href="https://www.whatsapp.com/?lang=id_ID">
+                  <i class="bx bxl-whatsapp"></i>Whatsapp</a
+                >
+              </li>
+              <li>
+                <a href="https://www.youtube.com/">
+                  <i class="bx bxl-youtube"></i>Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="halal">
+          <img src="img/halall.png" width="180px" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="end-text">
+      <p>
+        Copyright 2024 © Sigma Burger. All Rights Reserved.Design By Sigma
+        Corporation.
+      </p>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Java Script -->
+    <script src="js/script2.js"></script>
+  </body>
+</html>
